@@ -142,6 +142,14 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-slate-100 p-4 md:p-10">
+       {/* 🔵 ProgressCircle TEST (temporary) */}
+    <div style={{ display: "flex", gap: "16px", marginBottom: "24px" }}>
+      <ProgressCircle value={0} />
+      <ProgressCircle value={25} />
+      <ProgressCircle value={50} />
+      <ProgressCircle value={70} />
+      <ProgressCircle value={100} />
+    </div>
       <header className="flex items-center justify-between mb-6">
         <h1 className="text-3xl font-bold">Daily Routine Tracker</h1>
 
