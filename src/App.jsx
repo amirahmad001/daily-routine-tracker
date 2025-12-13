@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import ProgressCircle from "./components/ProgressCircle";
 import {
   LineChart,
   Line,
